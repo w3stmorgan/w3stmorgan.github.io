@@ -1,0 +1,20 @@
+- name: Django Lab
+  url: https://github.com/w3stmorgan/dj-playground/
+  description: Django Lab is done to quickly implement new brainstormed features of django based apps. It has a notes app for tracking finance and an Air pollution app for better visualization of excel data implemented with 3djs. It is hosted on heroku and serves static files from amazon s3 instance. Stacks used are Bootstrap, jQuery, Postgresql, Django.
+  status: live
+  tags:
+    - Django
+    - Postgresql
+    - Heroku
+    - AWS S3
+  icon: website
+
+- name: Simple Blog
+  url: https://github.com
+  description: Simple blogging web app with user authentication system, with Django rest framework for backend api, and React SPA for frontend.
+  status: live
+  tags:
+    - Django REST framework 
+    - React
+  icon: github
+  image: images/project.jpg
