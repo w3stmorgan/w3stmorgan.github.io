@@ -1,20 +1,36 @@
 - name: Django Lab
   url: https://github.com/w3stmorgan/dj-playground/
-  description: Django Lab is done to quickly implement new brainstormed features of django based apps. It has a notes app for tracking finance and an Air pollution app for better visualization of excel data implemented with 3djs. It is hosted on heroku and serves static files from amazon s3 instance. Stacks used are Bootstrap, jQuery, Postgresql, Django.
+  description: Django Lab web app is done with the objective of getting a better grasp of advanced features of django in the production environment. It has some scraping scripts,  a notes app for finance and an Air pollution app for visualization of excel data implemented with D3.js and openpyxl. It is hosted on heroku and AWS.
   status: live
   tags:
     - Django
-    - Postgresql
+    - PostgreSQL
     - Heroku
     - AWS S3
+    - Redis
+    - Mailgun
   icon: website
 
-- name: Simple Blog
-  url: https://github.com
-  description: Simple blogging web app with user authentication system, with Django rest framework for backend api, and React SPA for frontend.
-  status: live
+- name: Taxi Web app
+  url: https://github.com/w3stmorgan/taxi/
+  description: A ride-sharing application that incorporates a React frontend with a Django backend in a Docker container. Configured user authentication and authorization with core Django, coordinated two-way messaging with Django Channels and Redis, and constructed a RESTful API with Django REST Framework.
   tags:
-    - Django REST framework 
+    - Django REST Framework 
     - React
+    - Docker
+    - Django Channels
+    - Redis
+    - Cypress
   icon: github
-  image: images/project.jpg
+
+- name: Weather Extension
+  url: https://github.com/w3stmorgan/weather-extension
+  description: Display temperature of multiple cities based on user input, regularly updated bagde icon. Weather overlay that can be displayed on a webpage as a user is browsing, controllable through popup.Uses Chrome APIs(alarms, storage, etc...) with Core Extension concepts(popup, options, background script, content script).
+  tags:
+    - OpenWeather API 
+    - React
+    - TypeScript
+    - Webpack
+    - Material UI
+  icon: github
+  image: images/1
