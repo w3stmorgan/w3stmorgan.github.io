@@ -11,5 +11,8 @@
   "workspaces": [
     "gatsby-theme-intro",
     "site"
-  ]
+  ],
+  "dependencies": {
+    "postcss": "^8.4.14"
+  }
 }

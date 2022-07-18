@@ -1,6 +1,6 @@
-- name: Django Lab
+- name: Carbon Lab
   url: https://github.com/w3stmorgan/dj-playground/
-  description: Django Lab web app is done with the objective of getting a better grasp of advanced features of django in the production environment. It has some scraping scripts,  a notes app for finance and an Air pollution app for visualization of excel data implemented with D3.js and openpyxl. It is hosted on heroku and AWS.
+  description: Carbon emission vizualization and analysis app. D3.js and openpyxl. It is hosted on heroku and AWS.
   status: live
   tags:
     - Django
@@ -9,25 +9,25 @@
     - AWS S3
     - Redis
     - Mailgun
-  icon: website
-
-- name: Taxi Web app
-  url: https://github.com/w3stmorgan/taxi/
-  description: A ride-sharing application that incorporates a React frontend with a Django backend in a Docker container. Configured user authentication and authorization with core Django, coordinated two-way messaging with Django Channels and Redis, and constructed a RESTful API with Django REST Framework.
-  tags:
-    - Django REST Framework 
-    - React
-    - Docker
-    - Django Channels
-    - Redis
-    - Cypress
   icon: github
+
+# - name: Taxi Web app
+#   url: https://github.com/w3stmorgan/taxi/
+#   description: A ride-sharing application that incorporates a React frontend with a Django backend in a Docker container. Configured user authentication and authorization with core Django, coordinated two-way messaging with Django Channels and Redis, and constructed a RESTful API with Django REST Framework.
+#   tags:
+#     - Django REST Framework
+#     - React
+#     - Docker
+#     - Django Channels
+#     - Redis
+#     - Cypress
+#   icon: github
 
 - name: Weather Extension
   url: https://github.com/w3stmorgan/weather-extension
   description: Display temperature of multiple cities based on user input, regularly updated bagde icon. Weather overlay that can be displayed on a webpage as a user is browsing, controllable through popup.Uses Chrome APIs(alarms, storage, etc...) with Core Extension concepts(popup, options, background script, content script).
   tags:
-    - OpenWeather API 
+    - OpenWeather API
     - React
     - TypeScript
     - Webpack

@@ -1,8 +1,12 @@
+- company: TomTom
+  position: Software Engineer Intern
+  period: November 2021 - June 2022
+  url: https://tomtom.com
+
 - company: Eötvös Loránd University, Budapest
   position: BSc. Computer Science
-  period: January 2018 - present
+  period:
   url: https://www.elte.hu/
-
 # - company: Atomic Studio
 #   position: Web Developer
 #   period: January 2014 - December 2017

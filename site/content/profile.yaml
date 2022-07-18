@@ -5,22 +5,20 @@
   image: images/profile.jpg
   location: Budapest, HU
   relocation: true
-  company: 'On Freelance'
+  company: "On Freelance"
   for_hire: true
-  focus: Learning Gatsby
-  focus_url: https://gatsbyjs.org
+  focus: Shape rotation
+  focus_url: http://x.com/y
   about: |
     Some things you're good at. Some things are good for you. For me, programming is both. That's why I love programming and why I always seek to provide value with it.
 
     I am open to open-source projects, if you're looking for contributors I would be happy to help. Please don't hesitate to reach out to me if you have any question, want to hire me for a freelance project or even seeking a mentor.
   skills:
     - JavaScript
-    - HTML / CSS
-    - Django
+    - Python
   tools:
-    - React
-    - VSCode
-    - Gatsby
+    - VSCodium
+    - Git
   budget:
     currency: $
     min: 5
